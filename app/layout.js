@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import BackToTopButton from "@/components/BackToTopButton"; // 1. Import the new component
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
         >
           {children}
+          <BackToTopButton />
         </ThemeProvider>
       </body>
     </html>

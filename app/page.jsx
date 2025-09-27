@@ -6,6 +6,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutUsSection from "@/components/AboutUsSection";
 import ContactUsSection from "@/components/ContactUsSection";
 import BlogSection from "@/components/BlogSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUsSection />
       <BlogSection />
       <ContactUsSection />
+      <Footer />
     </main>
   );
 }
